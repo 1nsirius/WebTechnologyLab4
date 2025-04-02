@@ -1,0 +1,54 @@
+body {
+    background-color: #1a1a1a; /* Темный фон */
+    color: #ffffff; /* Белый текст */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #00bfff; /* Голубой цвет заголовка */
+}
+
+a {
+    color: #00bfff; /* Голубой цвет ссылок */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении на ссылку */
+}
+
+form {
+    background-color: #333333; /* Темный фон для форм */
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+label {
+    color: #00bfff; /* Голубой цвет надписей */
+}
+
+input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #00bfff; /* Голубая рамка для полей ввода */
+    border-radius: 5px;
+    background: #444444; /* Темный фон для полей ввода */
+    color: #ffffff; /* Белый текст в полях ввода */
+}
+
+button {
+    background-color: #00bfff; /* Голубая кнопка */
+    color: #ffffff; /* Белый текст на кнопке */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #009acd; /* Темно-голубой при наведении */
+}
